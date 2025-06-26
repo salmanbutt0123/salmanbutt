@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Salman - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    .container {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 0.8s ease forwards;
+    }
+  
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+  
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#experience">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <img src="your-photo.jpg" alt="Muhammad Salman" class="profile-img" />
+    <h1>Muhammad Salman</h1>
+    <p>Front-End Designer | FCS & DIT Student | Python & ML Learner</p>
+  </header>
+
+  <!-- Summary -->
+  <section id="summary" class="container">
+    <div class="summary-description">
+      <h2>Summary</h2>
+      <p>I’m a self-driven front-end designer and student of computer science, currently exploring Python for data science and machine learning. With a solid foundation in web design, I'm expanding into the world of AI, eager to solve real-world problems through automation, data analysis, and intelligent systems.</p>
+    </div>
+  </section>
+
+  <!-- Practical Skills & College Projects -->
+  <section id="experience" class="container">
+    <h2>Practical Skills & College Projects</h2>
+
+    <div class="job-description">
+      <h3>Front-End Designing Practice</h3>
+      <p><strong>HTML, CSS</strong> – Designed practice websites, portfolios, and layouts during coursework and personal projects.</p>
+      <ul>
+        <li>Built multi-page layouts using semantic HTML and styled with CSS.</li>
+        <li>Practiced responsive design and form elements.</li>
+        <li>Improved structure using navigation menus and sections.</li>
+      </ul>
+    </div>
+
+    <div class="job-description">
+      <h3>Python Programming Basics</h3>
+      <p><strong>DIT Course</strong> – Learned Python fundamentals through college assignments and self-study.</p>
+      <ul>
+        <li>Wrote programs using variables, input/output, loops, and functions.</li>
+        <li>Practiced logic-building and simple mini-projects like calculators and quiz apps.</li>
+      </ul>
+    </div>
+
+    <div class="job-description">
+      <h3>Basic Networking & ICT</h3>
+      <p><strong>DIT & FCS Coursework</strong> – Covered introductory concepts of networking and ICT tools.</p>
+      <ul>
+        <li>Learned IP addressing, LAN/WAN types, and basic troubleshooting.</li>
+        <li>Used ICT applications for documentation and presentation.</li>
+      </ul>
+    </div>
+
+    <div class="job-description">
+      <h3>SQL & Java Basics</h3>
+      <p><strong>Academic Learning</strong> – Gained a foundation in SQL and Java as part of ongoing studies.</p>
+      <ul>
+        <li>Practiced writing simple SQL queries (SELECT, INSERT, WHERE).</li>
+        <li>Understood Java syntax and structure through basic code examples.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="container">
+    <h2>Education</h2>
+
+    <div class="education">
+      <div class="education-content">
+        <div class="education-text">
+          <h3>Matriculation</h3>
+          <p>Completed in 2024</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="education">
+      <div class="education-content">
+        <div class="education-text">
+          <h3>FCS (Faculty of Computer Science)</h3>
+          <p>Currently studying</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="education">
+      <div class="education-content">
+        <div class="education-text">
+          <h3>DIT (Diploma in Information Technology)</h3>
+          <p>Currently studying</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2>Top Skills & Interests</h2>
+    <ul>
+      <li>HTML & CSS (Front-End Development)</li>
+      <li>Python for Data Science</li>
+      <li>Machine Learning (Learning Phase)</li>
+      <li>SQL Basics</li>
+      <li>Networking Fundamentals</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <ul>
+      <li>English (Fluent)</li>
+      <li>Urdu</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>Matriculation Certificate</li>
+      <li>Currently pursuing FCS & DIT</li>
+    </ul>
+  </section>
+
+  <!-- Learning Path -->
+  <section id="learning" class="container">
+    <h2>Learning Focus</h2>
+    <ul>
+      <li>Exploring Data Analysis with Pandas and NumPy</li>
+      <li>Building Machine Learning models using Scikit-learn</li>
+      <li>Studying Python automation and scripts for real-world tasks</li>
+      <li>Following YouTube and Udemy ML courses to build projects</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p><strong>Location:</strong> Nowshera, KPK, Pakistan</p>
+    <p><strong>Email:</strong> <a href="mailto:salmanbutt0123sraja@gmail.com">salmanbutt0123sraja@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/salman-butt-0a1a26316" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; 2025 Muhammad Salman</p>
+    <p><a href="#home">Back to Top</a></p>
+  </footer>
+
+  <!-- Light/Dark Mode Script -->
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    toggleBtn.addEventListener('click', () => {
+      html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+      toggleBtn.textContent = html.dataset.theme === 'dark' ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>
