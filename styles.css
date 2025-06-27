@@ -172,11 +172,12 @@ footer a:hover {
     text-align: center;
   }
 
-  nav ul {
-    flex-direction: column;
-  }
-
   .container {
     width: 95%;
+  }
+
+  .profile-img {
+    width: 140px;
+    height: 140px;
   }
 }
